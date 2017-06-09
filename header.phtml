@@ -1,0 +1,173 @@
+<div class="header-language-background">
+        <div class="header-language-container">
+            <p class="welcome-msg">
+                <?php echo $this->getChildHtml('accountLinks') ?>
+            </p>
+        </div>
+    </div>
+
+    <header id="header" class="new-banner-fixed">
+        <div class="sticky">
+            <div class="page-header-container">
+                <a class="logo" href="<?php echo $this->getUrl('') ?>">
+                    <img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" class="large" />
+                    <img src="<?php echo $this->getLogoSrcSmall() ?>" alt="<?php echo $this->getLogoAlt() ?>" class="small" />
+                </a>
+                <!--  MENÚ  -->
+                <div class="cd-dropdown-wrapper">
+                    <a class="cd-dropdown-trigger" href="#0">
+                        Productos
+                    </a>
+                    <nav class="cd-dropdown">
+                        <h2>Title</h2>
+                        <a href="#0" class="cd-close">Close</a>
+                        <ul class="cd-dropdown-content">
+                            <!-- Papelería -->
+                            <li class="has-children">
+                                <a>Papelería</a>
+                                <ul class="cd-secondary-dropdown is-hidden">
+                                    <li class="go-back">
+                                        <a href="#0">Menú</a>
+                                    </li>
+                                    <li class="has-children">
+                                        <ul class="is-hidden">
+                                            <li class="go-back"><a href="#0">Papelería</a></li>
+                                            <li><a href="/blocs-de-notas">Blocs de Notas</a></li>
+                                            <li><a href="/catalogos">Catálogos</a></li>
+                                            <li><a href="/dipticos">Dípticos</a></li>
+                                            <li><a href="/impresion-etiquetas">Etiquetas</a></li>
+                                            <li><a href="/folder">Folders</a></li>
+                                            <li><a href="/impresion-folletos">Folletos</a></li>
+                                            <li><a href="/impresion-hojas-membretadas">Hojas Membretadas</a></li>
+                                            <li><a href="/impresion-invitaciones">Invitaciones</a></li>
+                                            <li><a href="/manteletas">Manteletas</a></li>
+                                            <li><a href="/impresion-menus">Menús</a></li>
+                                            <li><a href="/impresion-postales">Postales</a></li>
+                                            <li><a href="/poster">Posters</a></li>
+                                            <li><a href="/sobres">Sobres</a></li>
+                                            <li><a href="/impresion-tarjetas-presentacion">Tarjetas de Presentación</a></li>
+                                            <li><a href="/tripticos">Trípticos</a></li>
+                                            <li><a href="/volantes">Volantes</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-children">
+                                        <ul class="is-hidden">
+                                            <li><img src="/skin/frontend/ggp/default/images/200px-tarjetas-de-presentacion.png" alt="Image"></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <!-- Gran Formato -->
+                            <li class="has-children">
+                            <a>Gran Formato</a>
+
+                            <ul class="cd-secondary-dropdown is-hidden">
+                                <li class="go-back"><a href="#0">Menú</a></li>
+                                <li class="has-children">
+                                    <ul class="is-hidden">
+                                        <li><a href="/lona">Lona</a></li>
+                                        <li><a href="/pared-grafica">Pared Gráfica</a></li>
+                                        <li><a href="/impresion-roll-ups">Roll-up</a></li>
+                                        <!--<li><a href="/rollup-doble-vista">Roll-up Doble Vista</a>-->
+                                        <li><a href="/impresion-viniles">Viniles</a></li>
+                                        <li><a href="/impresion-x-banners">X-Banner</a></li>
+                                        <li><a href="/x-banner-mini">X-Banner Mini</a></li>
+                                        
+                                    </ul>
+                                </li>
+
+                                <li class="has-children">
+                                    <ul class="is-hidden">
+                                        <li><img src="/skin/frontend/ggp/default/images/200px-x-gran-formato-xbanner.png" alt="Image2"></li>
+                                    </ul>
+                                </li>
+
+                                
+                                
+                            </ul> <!-- .cd-secondary-dropdown -->
+                            </li> <!-- .has-children -->
+
+                            <!-- Premium -->
+                            <li class="has-children">
+                            <a>Premium</a>
+
+                            <ul class="cd-secondary-dropdown is-hidden">
+                                <li class="go-back"><a href="#0">Menú</a></li>
+                                <li class="has-children">
+                                    <ul class="is-hidden">
+                                        <li><a href="/hojas-membretadas-premium">Hojas Membretadas</a></li>
+                                        <li><a href="/invitaciones-premium">Invitaciones</a></li>
+                                        <li><a href="/menu-premium">Menús</a></li>
+                                        <li><a href="/postales-premium">Postales</a></li>
+                                        <li><a href="/tarjetas-de-presentacion-premium">Tarjetas de Presentación</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="has-children">
+                                    <ul class="is-hidden">
+                                        <li><img src="/skin/frontend/ggp/default/images/200px-hojas-membretadas.png" alt="Image3"></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            </li> <!-- Premium -->
+
+                            <!-- Con Diseño -->
+                            <li class="has-children">
+                            <a>Pide tu Diseño</a>
+
+                            <ul class="cd-secondary-dropdown is-hidden">
+                                <li class="go-back"><a href="#0">Menú</a></li>
+                                <li class="has-children">
+                                    <ul class="is-hidden">
+                                        <li><a href="/dipticos-diseno">Dípticos</a></li>
+                                        <!--<li><a href="/lona-diseno">Lona</a></li>-->
+                                        <li><a href="/poster-diseno">Posters</a></li>
+                                        <li><a href="/tarjetas-de-presentacion-diseno">Tarjetas de Presentación</a></li>
+                                        <li><a href="/tripticos-diseno">Trípticos</a></li>
+                                        <li><a href="/volantes-diseno">Volantes</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="has-children">
+                                    <ul class="is-hidden">
+                                        <li><img src="/skin/frontend/ggp/default/images/200px-diseno-tarjetas.png" alt="Image3"></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            </li> <!-- Con diseño -->
+                        </ul>
+                    </nav>
+                </div> <!-- FIN MENÚ  -->
+
+                <a href="/clientes-empresariales/">
+                    <div class="items-header">
+                      <img src="/skin/frontend/ggp/default/images/new-site/empresarial.png">
+                      <p>Clientes<br>empresariales</p>
+                    </div>
+                </a>
+                <a href="/creditos-printero/">
+                    <div class="items-header-1">
+                      <img src="/skin/frontend/ggp/default/images/new-site/creditos.png">
+                      <h3>Ahorra<br>25%</h3>
+                    </div>
+                </a>
+                <a href="/promesa-printero/">
+                    <div class="items-header-2">
+                      <img src="/skin/frontend/ggp/default/images/new-site/promesa.png">
+                      <p>Promesa<br>Printero</p>
+                    </div>
+                </a>
+
+                <div class="account-cart-wrapper">
+                    <div class="header-minicart">
+                        <?php echo $this->getChildHtml('minicart_head'); ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+<?php echo $this->getChildHtml('topContainer'); ?>
+
