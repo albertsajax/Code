@@ -1,7 +1,5 @@
 $j(document).ready(function () {
 
-	// console.log('wired!');
-
 	// testimonials section
 	$j("#our_clients ul li a").click(function(e){
 		
